@@ -10,7 +10,8 @@
 name: Build OpenWrt PSG1218A
 
 on:
-  repository_dispatch:
+  workflow_dispatch:
+#  repository_dispatch:
 #  release:
 #    types: published
 #  push:
